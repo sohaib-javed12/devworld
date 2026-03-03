@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Development - DevWorld</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>DevWorld</span>
+            </div>
+            
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="programming.html">Programming</a></li>
+                <li><a href="frontend.html">Frontend</a></li>
+                <li><a href="backend.html">Backend</a></li>
+                <li><a href="mobile.html" class="active">Mobile</a></li>
+                <li><a href="uiux.html">UI/UX</a></li>
+                <li><a href="deployment.html">Deployment</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="roadmap.html">Roadmap</a></li>
+                <li><a href="../index.html#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header animated-bg">
+        <div class="container">
+            <h1 class="page-title">Mobile App Development</h1>
+            <p class="page-description">Create powerful, engaging mobile applications for billions of users worldwide.</p>
+        </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="section">
+        <div class="container">
+            <div class="intro-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h2>What is Mobile Development?</h2>
+                <p>Mobile development is the process of creating software applications that run on mobile devices. With over 6 billion smartphone users worldwide, mobile apps represent one of the largest and most lucrative software markets.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLATFORM OVERVIEW -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Mobile Platforms</h2>
+            
+            <div class="platform-grid">
+                <!-- Android -->
+                <div class="platform-card">
+                    <i class="fab fa-android"></i>
+                    <h3>Android Development</h3>
+                    <p><strong>Market Share:</strong> ~72% worldwide</p>
+                    <p><strong>Languages:</strong> Kotlin (official), Java</p>
+                    <p><strong>IDE:</strong> Android Studio</p>
+                    <p><strong>UI Toolkit:</strong> Jetpack Compose, XML layouts</p>
+                    
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Open source ecosystem</li>
+                        <li>Customizable and flexible</li>
+                        <li>Google services integration</li>
+                        <li>Wide device variety</li>
+                        <li>Large user base</li>
+                    </ul>
+                    
+                    <h4>When to Choose Android:</h4>
+                    <ul>
+                        <li>Targeting global market</li>
+                        <li>Custom hardware integration</li>
+                        <li>Google Play services needed</li>
+                        <li>Budget-conscious users</li>
+                    </ul>
+                </div>
+                
+                <!-- iOS -->
+                <div class="platform-card">
+                    <i class="fab fa-apple"></i>
+                    <h3>iOS Development</h3>
+                    <p><strong>Market Share:</strong> ~27% worldwide</p>
+                    <p><strong>Languages:</strong> Swift (official), Objective-C</p>
+                    <p><strong>IDE:</strong> Xcode</p>
+                    <p><strong>UI Toolkit:</strong> SwiftUI, UIKit</p>
+                    
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Premium user base</li>
+                        <li>Higher app revenue</li>
+                        <li>Fewer device types</li>
+                        <li>Better security</li>
+                        <li>Latest features adoption</li>
+                    </ul>
+                    
+                    <h4>When to Choose iOS:</h4>
+                    <ul>
+                        <li>Targeting premium market</li>
+                        <li>Monetization priority</li>
+                        <li>US/Europe focus</li>
+                        <li>Apple ecosystem integration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CROSS-PLATFORM SOLUTIONS -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Cross-Platform Development</h2>
+            
+            <div class="cross-platform-grid">
+                <!-- Flutter -->
+                <div class="cross-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Flutter</h3>
+                    <p><strong>Created by:</strong> Google</p>
+                    <p><strong>Language:</strong> Dart</p>
+                    <p><strong>Release:</strong> 2017</p>
+                    
+                    <h4>Advantages:</h4>
+                    <ul>
+                        <li>Single codebase for iOS/Android</li>
+                        <li>Hot reload for fast development</li>
+                        <li>Beautiful, customizable widgets</li>
+                        <li>Excellent performance (compiled to native)</li>
+                        <li>Growing community and packages</li>
+                    </ul>
+                    
+                    <h4>Best For:</h4>
+                    <ul>
+                        <li>MVPs and startups</li>
+                        <li>Custom UI designs</li>
+                        <li>Apps needing platform-specific features</li>
+                    </ul>
+                    
+                    <h4>Companies Using Flutter:</h4>
+                    <p>Google, Alibaba, BMW, eBay, Tencent</p>
+                </div>
+                
+                <!-- React Native -->
+                <div class="cross-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React Native</h3>
+                    <p><strong>Created by:</strong> Facebook</p>
+                    <p><strong>Language:</strong> JavaScript/TypeScript</p>
+                    <p><strong>Release:</strong> 2015</p>
+                    
+                    <h4>Advantages:</h4>
+                    <ul>
+                        <li>Reuse React skills</li>
+                        <li>Large ecosystem</li>
+                        <li>Hot reloading</li>
+                        <li>Native performance</li>
+                        <li>Strong community</li>
+                    </ul>
+                    
+                    <h4>Best For:</h4>
+                    <ul>
+                        <li>Web developers transitioning</li>
+                        <li>Apps needing web integration</li>
+                        <li>Startups with web background</li>
+                    </ul>
+                    
+                    <h4>Companies Using React Native:</h4>
+                    <p>Facebook, Instagram, Airbnb, Shopify, Tesla</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPARISON TABLE -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Platform Comparison</h2>
+            
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Android (Kotlin)</th>
+                            <th>iOS (Swift)</th>
+                            <th>Flutter</th>
+                            <th>React Native</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Performance</td>
+                            <td>Native</td>
+                            <td>Native</td>
+                            <td>Near-native</td>
+                            <td>Good</td>
+                        </tr>
+                        <tr>
+                            <td>Development Speed</td>
+                            <td>Medium</td>
+                            <td>Medium</td>
+                            <td>Fast</td>
+                            <td>Fast</td>
+                        </tr>
+                        <tr>
+                            <td>Learning Curve</td>
+                            <td>Moderate</td>
+                            <td>Moderate</td>
+                            <td>Moderate</td>
+                            <td>Easy (if React known)</td>
+                        </tr>
+                        <tr>
+                            <td>UI Customization</td>
+                            <td>High</td>
+                            <td>High</td>
+                            <td>Very High</td>
+                            <td>Medium</td>
+                        </tr>
+                        <tr>
+                            <td>Community Size</td>
+                            <td>Large</td>
+                            <td>Large</td>
+                            <td>Growing</td>
+                            <td>Very Large</td>
+                        </tr>
+                        <tr>
+                            <td>Job Market</td>
+                            <td>High</td>
+                            <td>High</td>
+                            <td>Growing</td>
+                            <td>High</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- GETTING STARTED GUIDES -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Getting Started Guides</h2>
+            
+            <div class="guides-grid">
+                <div class="guide-card">
+                    <h3><i class="fab fa-android"></i> Android Development Path</h3>
+                    <ol>
+                        <li>Learn Kotlin basics</li>
+                        <li>Understand Android Studio</li>
+                        <li>Master Jetpack Compose</li>
+                        <li>Learn Android architecture components</li>
+                        <li>Build simple apps</li>
+                        <li>Learn Material Design</li>
+                        <li>Publish to Google Play</li>
+                    </ol>
+                </div>
+                
+                <div class="guide-card">
+                    <h3><i class="fab fa-apple"></i> iOS Development Path</h3>
+                    <ol>
+                        <li>Learn Swift basics</li>
+                        <li>Master Xcode</li>
+                        <li>Learn SwiftUI</li>
+                        <li>Understand iOS app lifecycle</li>
+                        <li>Build simple apps</li>
+                        <li>Learn Human Interface Guidelines</li>
+                        <li>Publish to App Store</li>
+                    </ol>
+                </div>
+                
+                <div class="guide-card">
+                    <h3><i class="fas fa-mobile-alt"></i> Flutter Path</h3>
+                    <ol>
+                        <li>Learn Dart basics</li>
+                        <li>Understand Flutter widgets</li>
+                        <li>Master state management</li>
+                        <li>Learn navigation</li>
+                        <li>Add platform-specific features</li>
+                        <li>Build and test</li>
+                        <li>Deploy to both stores</li>
+                    </ol>
+                </div>
+                
+                <div class="guide-card">
+                    <h3><i class="fab fa-react"></i> React Native Path</h3>
+                    <ol>
+                        <li>Learn JavaScript/TypeScript</li>
+                        <li>Understand React basics</li>
+                        <li>Learn React Native components</li>
+                        <li>Master navigation</li>
+                        <li>State management (Redux/Context)</li>
+                        <li>Add native modules</li>
+                        <li>Build and deploy</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-code"></i>
+                      <span>DevWorld</span>
+                    </div>
+                    <p>Your complete developer education platform. From beginner to professional, we cover everything in the software world.</p>
+                      <div class="social-links">
+              <a href="https://github.com/sohaib-javed12" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://x.com/Sohaib__Qayoumi" target="_blank">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/sohaib-javed-7027313b0/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/mr_jalazai45"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="programming.html">Programming Languages</a></li>
+                        <li><a href="frontend.html">Frontend Development</a></li>
+                        <li><a href="backend.html">Backend Development</a></li>
+                        <li><a href="uiux.html">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 DevWorld. All rights reserved.</p>
+                <p class="developer-credit">
+                    Developed by <a href="https://sohaibjaved-murex.vercel.app/" target="_blank">Sohaib Javed</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

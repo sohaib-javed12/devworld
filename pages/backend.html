@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Development - DevWorld</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>DevWorld</span>
+            </div>
+            
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="programming.html">Programming</a></li>
+                <li><a href="frontend.html">Frontend</a></li>
+                <li><a href="backend.html" class="active">Backend</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+                <li><a href="uiux.html">UI/UX</a></li>
+                <li><a href="deployment.html">Deployment</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="roadmap.html">Roadmap</a></li>
+                <li><a href="../index.html#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header animated-bg">
+        <div class="container">
+            <h1 class="page-title">Backend Development</h1>
+            <p class="page-description">The engine behind the scenes - servers, databases, APIs, and business logic that power modern applications.</p>
+        </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="section">
+        <div class="container">
+            <div class="intro-card">
+                <i class="fas fa-server"></i>
+                <h2>What is Backend Development?</h2>
+                <p>Backend development (also known as server-side development) focuses on databases, scripting, and architecture of websites. Code written in backend development helps browsers communicate with databases, store data, and ensure everything on the client-side works properly. It's the part of the website that users don't see but is essential for functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BACKEND LANGUAGES -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Backend Languages</h2>
+            
+            <div class="languages-grid">
+                <!-- Node.js -->
+                <div class="language-card">
+                    <i class="fab fa-node"></i>
+                    <h3>Node.js</h3>
+                    <p><strong>Type:</strong> JavaScript runtime</p>
+                    <p><strong>Best For:</strong> Real-time apps, APIs, microservices</p>
+                    <p><strong>Frameworks:</strong> Express.js, Nest.js, Koa</p>
+                    <p><strong>Key Features:</strong> Non-blocking I/O, event-driven, npm ecosystem</p>
+                    <p><strong>Companies:</strong> Netflix, Uber, LinkedIn</p>
+                </div>
+                
+                <!-- Python -->
+                <div class="language-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p><strong>Type:</strong> Interpreted, high-level</p>
+                    <p><strong>Best For:</strong> Web apps, data science, AI/ML</p>
+                    <p><strong>Frameworks:</strong> Django, Flask, FastAPI</p>
+                    <p><strong>Key Features:</strong> Readable syntax, vast libraries, rapid development</p>
+                    <p><strong>Companies:</strong> Instagram, Spotify, Dropbox</p>
+                </div>
+                
+                <!-- Java -->
+                <div class="language-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <p><strong>Type:</strong> Object-oriented, compiled</p>
+                    <p><strong>Best For:</strong> Enterprise apps, Android backend</p>
+                    <p><strong>Frameworks:</strong> Spring Boot, Jakarta EE</p>
+                    <p><strong>Key Features:</strong> Platform independent, robust, scalable</p>
+                    <p><strong>Companies:</strong> Amazon, Google, eBay</p>
+                </div>
+                
+                <!-- PHP -->
+                <div class="language-card">
+                    <i class="fab fa-php"></i>
+                    <h3>PHP</h3>
+                    <p><strong>Type:</strong> Server-side scripting</p>
+                    <p><strong>Best For:</strong> WordPress, CMS, e-commerce</p>
+                    <p><strong>Frameworks:</strong> Laravel, Symfony, CodeIgniter</p>
+                    <p><strong>Key Features:</strong> Easy to learn, large community, web-focused</p>
+                    <p><strong>Companies:</strong> Facebook, Wikipedia, Slack</p>
+                </div>
+                
+                <!-- Ruby -->
+                <div class="language-card">
+                    <i class="fas fa-gem"></i>
+                    <h3>Ruby</h3>
+                    <p><strong>Type:</strong> Dynamic, interpreted</p>
+                    <p><strong>Best For:</strong> Rapid development, startups</p>
+                    <p><strong>Frameworks:</strong> Ruby on Rails, Sinatra</p>
+                    <p><strong>Key Features:</strong> Convention over configuration, elegant syntax</p>
+                    <p><strong>Companies:</strong> Airbnb, GitHub, Shopify</p>
+                </div>
+                
+                <!-- Go -->
+                <div class="language-card">
+                    <i class="fab fa-golang"></i>
+                    <h3>Go</h3>
+                    <p><strong>Type:</strong> Compiled, concurrent</p>
+                    <p><strong>Best For:</strong> Cloud services, microservices</p>
+                    <p><strong>Frameworks:</strong> Gin, Echo, Fiber</p>
+                    <p><strong>Key Features:</strong> Goroutines, fast compilation, built-in concurrency</p>
+                    <p><strong>Companies:</strong> Google, Uber, Twitch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DATABASES -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Databases</h2>
+            
+            <div class="database-grid">
+                <!-- MySQL -->
+                <div class="database-card">
+                    <i class="fas fa-database"></i>
+                    <h3>MySQL</h3>
+                    <p><strong>Type:</strong> Relational (SQL)</p>
+                    <p><strong>Best For:</strong> Web applications, e-commerce</p>
+                    <p><strong>Key Features:</strong> ACID compliant, transactions, stored procedures</p>
+                    <p><strong>Use Cases:</strong> WordPress, Facebook, Twitter</p>
+                </div>
+                
+                <!-- PostgreSQL -->
+                <div class="database-card">
+                    <i class="fas fa-database"></i>
+                    <h3>PostgreSQL</h3>
+                    <p><strong>Type:</strong> Object-relational (SQL)</p>
+                    <p><strong>Best For:</strong> Complex queries, data integrity</p>
+                    <p><strong>Key Features:</strong> JSON support, custom data types, advanced indexing</p>
+                    <p><strong>Use Cases:</strong> Instagram, Reddit, Apple</p>
+                </div>
+                
+                <!-- MongoDB -->
+                <div class="database-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>MongoDB</h3>
+                    <p><strong>Type:</strong> NoSQL (Document)</p>
+                    <p><strong>Best For:</strong> Flexible schemas, rapid development</p>
+                    <p><strong>Key Features:</strong> JSON-like documents, horizontal scaling, aggregation pipeline</p>
+                    <p><strong>Use Cases:</strong> eBay, Adobe, Google</p>
+                </div>
+                
+                <!-- Redis -->
+                <div class="database-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Redis</h3>
+                    <p><strong>Type:</strong> In-memory data store</p>
+                    <p><strong>Best For:</strong> Caching, real-time data</p>
+                    <p><strong>Key Features:</strong> Ultra-fast, data structures, pub/sub</p>
+                    <p><strong>Use Cases:</strong> Twitter, GitHub, Stack Overflow</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APIs SECTION -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">APIs (Application Programming Interfaces)</h2>
+            
+            <div class="api-grid">
+                <div class="api-card">
+                    <i class="fas fa-plug"></i>
+                    <h3>RESTful APIs</h3>
+                    <p>Representational State Transfer - the most common API architecture. Uses HTTP methods (GET, POST, PUT, DELETE) and returns JSON or XML.</p>
+                    <h4>Best Practices:</h4>
+                    <ul>
+                        <li>Use proper HTTP status codes</li>
+                        <li>Version your API (v1, v2)</li>
+                        <li>Use nouns for endpoints (/users, /products)</li>
+                        <li>Implement pagination for lists</li>
+                    </ul>
+                </div>
+                
+                <div class="api-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>GraphQL</h3>
+                    <p>A query language for APIs that allows clients to request exactly the data they need. Created by Facebook.</p>
+                    <h4>Advantages:</h4>
+                    <ul>
+                        <li>No over-fetching or under-fetching</li>
+                        <li>Single endpoint</li>
+                        <li>Strongly typed schema</li>
+                        <li>Real-time with subscriptions</li>
+                    </ul>
+                </div>
+                
+                <div class="api-card">
+                    <i class="fas fa-lock"></i>
+                    <h3>Authentication</h3>
+                    <h4>Common Methods:</h4>
+                    <ul>
+                        <li><strong>JWT (JSON Web Tokens)</strong> - Stateless authentication</li>
+                        <li><strong>OAuth 2.0</strong> - Third-party authorization</li>
+                        <li><strong>Session-based</strong> - Server-side sessions</li>
+                        <li><strong>API Keys</strong> - Simple access control</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVERS & HOSTING -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Servers & Hosting</h2>
+            
+            <div class="server-grid">
+                <div class="server-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Web Servers</h3>
+                    <ul>
+                        <li><strong>Nginx</strong> - High performance, reverse proxy</li>
+                        <li><strong>Apache</strong> - Most popular, .htaccess</li>
+                        <li><strong>IIS</strong> - Microsoft's web server</li>
+                    </ul>
+                </div>
+                
+                <div class="server-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Platforms</h3>
+                    <ul>
+                        <li><strong>AWS</strong> - EC2, Lambda, RDS, S3</li>
+                        <li><strong>Google Cloud</strong> - App Engine, Cloud Functions</li>
+                        <li><strong>Azure</strong> - Virtual Machines, Functions</li>
+                        <li><strong>Heroku</strong> - PaaS, easy deployment</li>
+                    </ul>
+                </div>
+                
+                <div class="server-card">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Load Balancing</h3>
+                    <p>Distribute traffic across multiple servers for high availability and reliability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-code"></i>
+                      <span>DevWorld</span>
+                    </div>
+                    <p>Your complete developer education platform. From beginner to professional, we cover everything in the software world.</p>
+                      <div class="social-links">
+              <a href="https://github.com/sohaib-javed12" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://x.com/Sohaib__Qayoumi" target="_blank">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/sohaib-javed-7027313b0/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/mr_jalazai45"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="programming.html">Programming Languages</a></li>
+                        <li><a href="frontend.html">Frontend Development</a></li>
+                        <li><a href="backend.html">Backend Development</a></li>
+                        <li><a href="uiux.html">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 DevWorld. All rights reserved.</p>
+                <p class="developer-credit">
+                    Developed by <a href="https://sohaibjaved-murex.vercel.app/" target="_blank">Sohaib Javed</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

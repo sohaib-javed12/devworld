@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Development - DevWorld</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>DevWorld</span>
+            </div>
+            
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="programming.html">Programming</a></li>
+                <li><a href="frontend.html" class="active">Frontend</a></li>
+                <li><a href="backend.html">Backend</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+                <li><a href="uiux.html">UI/UX</a></li>
+                <li><a href="deployment.html">Deployment</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="roadmap.html">Roadmap</a></li>
+                <li><a href="../index.html#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header animated-bg">
+        <div class="container">
+            <h1 class="page-title">Frontend Development</h1>
+            <p class="page-description">Create beautiful, interactive, and responsive user interfaces that users love.</p>
+        </div>
+    </section>
+
+    <!-- INTRODUCTION SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="intro-card">
+                <i class="fas fa-laptop-code"></i>
+                <h2>What is Frontend Development?</h2>
+                <p>Frontend development (also known as client-side development) is the practice of producing HTML, CSS, and JavaScript for a website or web application so that users can see and interact with them directly. The challenge associated with frontend development is that the tools and techniques used to create the frontend change constantly, requiring developers to stay current with the evolution of the field.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CORE TECHNOLOGIES -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Core Technologies</h2>
+            
+            <div class="tech-grid">
+                <!-- HTML5 Card -->
+                <div class="tech-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>The latest version of HyperText Markup Language, including new semantic elements, multimedia support, and APIs for complex web applications.</p>
+                    <div class="tech-details">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Semantic elements (header, nav, article, section)</li>
+                            <li>Native audio and video support</li>
+                            <li>Canvas for graphics</li>
+                            <li>SVG integration</li>
+                            <li>Form validation and input types</li>
+                            <li>Local storage and session storage</li>
+                        </ul>
+                        <h4>Beginner Projects:</h4>
+                        <ul>
+                            <li>Personal portfolio page</li>
+                            <li>Blog post layout</li>
+                            <li>Product landing page</li>
+                            <li>Photo gallery</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- CSS3 Card -->
+                <div class="tech-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Cascading Style Sheets level 3 brings powerful styling capabilities, animations, and responsive design features to modern web development.</p>
+                    <div class="tech-details">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Flexbox and Grid layouts</li>
+                            <li>Animations and transitions</li>
+                            <li>Media queries for responsiveness</li>
+                            <li>CSS variables (custom properties)</li>
+                            <li>Gradients and shadows</li>
+                            <li>Transform and 3D effects</li>
+                        </ul>
+                        <h4>Beginner Projects:</h4>
+                        <ul>
+                            <li>Responsive navigation menu</li>
+                            <li>Animated buttons</li>
+                            <li>Card layout designs</li>
+                            <li>CSS art and illustrations</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- JavaScript Card -->
+                <div class="tech-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript (ES6+)</h3>
+                    <p>The programming language of the web, now with modern features that make development more efficient and enjoyable.</p>
+                    <div class="tech-details">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Arrow functions and template literals</li>
+                            <li>Destructuring and spread operators</li>
+                            <li>Promises and async/await</li>
+                            <li>Modules and imports</li>
+                            <li>Classes and inheritance</li>
+                            <li>DOM manipulation and events</li>
+                        </ul>
+                        <h4>Beginner Projects:</h4>
+                        <ul>
+                            <li>Interactive todo list</li>
+                            <li>Calculator app</li>
+                            <li>Weather app with API</li>
+                            <li>Quiz application</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESPONSIVE DESIGN -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Responsive Web Design</h2>
+            
+            <div class="responsive-content">
+                <div class="responsive-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile-First Approach</h3>
+                    <p>Designing for mobile devices first, then progressively enhancing for larger screens. This ensures optimal performance on all devices.</p>
+                </div>
+                
+                <div class="responsive-card">
+                    <i class="fas fa-tablet-alt"></i>
+                    <h3>Fluid Layouts</h3>
+                    <p>Using relative units (%, rem, vw) instead of fixed pixels to create flexible layouts that adapt to any screen size.</p>
+                </div>
+                
+                <div class="responsive-card">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Media Queries</h3>
+                    <p>CSS techniques that apply different styles based on device characteristics like width, height, orientation, and resolution.</p>
+                </div>
+                
+                <div class="responsive-card">
+                    <i class="fas fa-images"></i>
+                    <h3>Responsive Images</h3>
+                    <p>Techniques like srcset and picture elements to serve appropriately sized images based on device capabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BROWSER RENDERING -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Browser Rendering</h2>
+            
+            <div class="rendering-steps">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>HTML Parsing</h3>
+                        <p>Browser parses HTML and constructs the DOM (Document Object Model) tree.</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>CSS Parsing</h3>
+                        <p>Browser parses CSS and constructs the CSSOM (CSS Object Model) tree.</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Render Tree Construction</h3>
+                        <p>DOM and CSSOM are combined to create the render tree containing visible elements.</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Layout (Reflow)</h3>
+                        <p>Browser calculates the position and size of each element on the page.</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Paint</h3>
+                        <p>Browser fills in pixels for each element - text, colors, images, borders, shadows.</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h3>Compositing</h3>
+                        <p>Browser draws layers to the screen in the correct order.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FRONTEND FRAMEWORKS -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Frontend Frameworks</h2>
+            
+            <div class="frameworks-grid">
+                <!-- React -->
+                <div class="framework-detailed-card">
+                    <div class="framework-header">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="framework-body">
+                        <p><strong>Created by:</strong> Facebook (2013)</p>
+                        <p><strong>Type:</strong> Library (not a full framework)</p>
+                        <p><strong>Learning Curve:</strong> Moderate</p>
+                        
+                        <h4>Key Concepts:</h4>
+                        <ul>
+                            <li>Component-based architecture</li>
+                            <li>Virtual DOM for performance</li>
+                            <li>JSX (JavaScript + XML)</li>
+                            <li>Props and state management</li>
+                            <li>Hooks (useState, useEffect, useContext)</li>
+                            <li>Unidirectional data flow</li>
+                        </ul>
+                        
+                        <h4>When to Use:</h4>
+                        <ul>
+                            <li>Single-page applications (SPAs)</li>
+                            <li>Dynamic user interfaces</li>
+                            <li>Mobile apps with React Native</li>
+                            <li>Large-scale applications</li>
+                        </ul>
+                        
+                        <h4>Companies Using React:</h4>
+                        <p>Netflix, Airbnb, Uber, Facebook, Instagram, WhatsApp</p>
+                        
+                        <h4>Learning Resources:</h4>
+                        <ul>
+                            <li>Official React Docs</li>
+                            <li>Create React App</li>
+                            <li>Next.js for SSR</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Vue -->
+                <div class="framework-detailed-card">
+                    <div class="framework-header">
+                        <i class="fab fa-vuejs"></i>
+                        <h3>Vue.js</h3>
+                    </div>
+                    <div class="framework-body">
+                        <p><strong>Created by:</strong> Evan You (2014)</p>
+                        <p><strong>Type:</strong> Progressive framework</p>
+                        <p><strong>Learning Curve:</strong> Gentle</p>
+                        
+                        <h4>Key Concepts:</h4>
+                        <ul>
+                            <li>Reactive data binding</li>
+                            <li>Component-based</li>
+                            <li>Virtual DOM</li>
+                            <li>Directives (v-if, v-for, v-model)</li>
+                            <li>Computed properties and watchers</li>
+                            <li>Vue CLI for scaffolding</li>
+                        </ul>
+                        
+                        <h4>When to Use:</h4>
+                        <ul>
+                            <li>Small to large applications</li>
+                            <li>Gradual adoption in existing projects</li>
+                            <li>Rapid prototyping</li>
+                            <li>SPAs and static sites</li>
+                        </ul>
+                        
+                        <h4>Companies Using Vue:</h4>
+                        <p>GitLab, Alibaba, Xiaomi, Adobe, Nintendo</p>
+                        
+                        <h4>Learning Resources:</h4>
+                        <ul>
+                            <li>Official Vue Guide</li>
+                            <li>Vue CLI</li>
+                            <li>Nuxt.js for SSR</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Angular -->
+                <div class="framework-detailed-card">
+                    <div class="framework-header">
+                        <i class="fab fa-angular"></i>
+                        <h3>Angular</h3>
+                    </div>
+                    <div class="framework-body">
+                        <p><strong>Created by:</strong> Google (2016, rewrite of AngularJS)</p>
+                        <p><strong>Type:</strong> Full-featured framework</p>
+                        <p><strong>Learning Curve:</strong> Steep</p>
+                        
+                        <h4>Key Concepts:</h4>
+                        <ul>
+                            <li>TypeScript by default</li>
+                            <li>MVC architecture</li>
+                            <li>Dependency injection</li>
+                            <li>RxJS for reactive programming</li>
+                            <li>Two-way data binding</li>
+                            <li>Modules and components</li>
+                        </ul>
+                        
+                        <h4>When to Use:</h4>
+                        <ul>
+                            <li>Enterprise applications</li>
+                            <li>Large-scale projects</li>
+                            <li>Complex business requirements</li>
+                            <li>Teams familiar with TypeScript</li>
+                        </ul>
+                        
+                        <h4>Companies Using Angular:</h4>
+                        <p>Google, Microsoft, PayPal, Upwork, Forbes</p>
+                        
+                        <h4>Learning Resources:</h4>
+                        <ul>
+                            <li>Official Angular Docs</li>
+                            <li>Angular CLI</li>
+                            <li>Angular Material</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-code"></i>
+                      <span>DevWorld</span>
+                    </div>
+                    <p>Your complete developer education platform. From beginner to professional, we cover everything in the software world.</p>
+                      <div class="social-links">
+              <a href="https://github.com/sohaib-javed12" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://x.com/Sohaib__Qayoumi" target="_blank">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/sohaib-javed-7027313b0/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/mr_jalazai45"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="programming.html">Programming Languages</a></li>
+                        <li><a href="frontend.html">Frontend Development</a></li>
+                        <li><a href="backend.html">Backend Development</a></li>
+                        <li><a href="uiux.html">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 DevWorld. All rights reserved.</p>
+                <p class="developer-credit">
+                    Developed by <a href="https://sohaibjaved-murex.vercel.app/" target="_blank">Sohaib Javed</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
